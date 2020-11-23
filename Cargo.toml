@@ -9,7 +9,7 @@ default = ["type-uuid", "collect"]
 collect = ["inventory"]
 
 [dependencies]
-legion = { git="https://github.com/TomGillen/legion" }
+legion = "0.3"
 uuid = "0.8"
 serde = { version = "1.0", features = ["derive"] }
 inventory = { version = "0.1", optional = true }
